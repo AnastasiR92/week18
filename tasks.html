@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/tasks.css" />
+    <link rel="stylesheet" href="assets/normalize.css" />
+    <title>Список задач</title>
+  </head>
+  <body>
+    <h2 id="addTask-title">Добавить задачу</h2>
+    <div class="task-section">
+      <input
+        type="text"
+        id="taskInput"
+        name="taskInput"
+        placeholder="Введите вашу задачу здесь..."
+      />
+      <button id="submitTask">Отправить</button>
+    </div>
+    <h2 id="taskList-title">Список задач</h2>
+    <div class="task-list">
+      <div id="noTasks"></div>
+      <div id="tasksContainer"></div>
+      <button id="clearTask">Очистить список задач</button>
+    </div>
+    <script src="tasks.js"></script>
+  </body>
+</html>

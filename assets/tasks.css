@@ -1,0 +1,85 @@
+body{
+    background-image: url("/assets/pictures/background_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.task-section{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 50%;
+}
+
+#addTask-title{
+    margin-top: 3rem;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(79, 130, 132);
+}
+
+#taskInput{
+    width: 30rem;
+    height: 6vh;
+    padding-left: 1rem;
+    margin-left: 29rem;
+    border-radius: 6px;
+    border-color: cornflowerblue;
+}
+
+#submitTask{
+    width: 10rem;
+    margin-left: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: cornflowerblue;
+    border-radius: 36px;
+    border-color: rgb(100, 149, 237, 0.5);
+    background-color: rgb(203, 250, 250);
+    box-shadow: 3px 3px 5px rgba(3, 58, 104, 0.6);
+}
+
+#taskInput, #submitTask{
+    margin-top: 3rem;
+}
+
+#taskList-title{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(79, 130, 132);
+    padding-top: 3rem;
+}
+
+.task-list{
+    display: grid;
+    grid-template-rows: 1fr 55%;
+}
+
+.task-list{
+    display: grid;
+    grid-template-rows: 1fr 50%;
+    grid-template-columns: 1fr;
+}
+
+#noTasks, #tasksContainer{
+    margin-bottom: 2rem;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14pt;
+    
+}
+
+#noTasks{
+    color: rgba(128, 128, 128, 0.6);
+}
+
+#clearTask{
+    width: 10rem;
+    margin-left: 43rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: cornflowerblue;
+    border-radius: 36px;
+    border-color: rgb(100, 149, 237, 0.5);
+    background-color: rgb(203, 250, 250);
+    box-shadow: 3px 3px 5px rgba(3, 58, 104, 0.6);
+}
+
